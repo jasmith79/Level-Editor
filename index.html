@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Level Editor</title>
+    <link type='text/css' rel='stylesheet' href='css/editor.css'>
+</head>
+
+<body>
+<img src='img/icons/menuicon.png'>
+<div id='main-menu'>
+    <img src='img/icons/magnify.png' id='view-mode'><br>
+    <img src='img/icons/pencil.png' id='edit-mode'><br>
+    <img src='img/icons/plus.png' id='z-up'><br>
+    <img src='img/icons/minus.png' id='z-down'><br>
+    <img src='img/icons/ex.png' id='hide-menu'>
+</div>
+<div id='main-div'>
+    <div id='main-portal'>
+        <canvas></canvas>
+    </div>
+</div>
+<div id='rt-column'>
+    <div id='sheet-portal'>
+        <canvas></canvas>
+        <!--<div class='arrow up-arrow' value='0,-1'></div>
+        <div class='arrow down-arrow' value='0,1'></div>
+        <div class='arrow right-arrow' value='1,0'></div>
+        <div class='arrow left-arrow' value='-1,0'></div>
+        <!--a,b,a,b,select,start!-->
+    </div>
+    <div id='rt-bottom'>
+        <ul>
+            <li style='border-bottom: thin solid #666;margin-bottom: 4%;'>
+                Spritesheets<br>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script src='src/editor.js' async defer></script>
+</body>
+
+
+</html>
